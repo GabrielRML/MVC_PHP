@@ -1,0 +1,35 @@
+
+h1{
+    text-align: center;
+}
+
+form{
+    padding: 20px;
+}
+
+.barra {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.barra div {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    animation: 2s barra linear infinite;
+}
+
+@keyframes barra {
+    0%{
+        background-color: lightgreen;
+    }
+    50%{
+        background-color:green;
+    }
+    100%{
+        background-color: lightgreen;
+    }
+}
